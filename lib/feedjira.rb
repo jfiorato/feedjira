@@ -26,6 +26,8 @@ require 'feedjira/parser/google_docs_atom_entry'
 require 'feedjira/parser/google_docs_atom'
 require 'feedjira/parser/rss_atypon_entry'
 require 'feedjira/parser/rss_atypon'
+require 'feedjira/parser/atom_youtube_entry'
+require 'feedjira/parser/atom_youtube'
 
 module Feedjira
   class NoParserAvailable < StandardError; end
