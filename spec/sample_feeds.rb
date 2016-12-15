@@ -26,7 +26,8 @@ module SampleFeeds
     sample_duplicate_content_atom_feed: 'DuplicateContentAtomFeed.xml',
     sample_youtube_atom_feed: 'youtube_atom.xml',
     sample_atom_xhtml_with_escpaed_html_in_pre_tag_feed: 'AtomEscapedHTMLInPreTag.xml',
-    sample_atypon_rss_feed: 'AtyponRSSFeed.xml'
+    sample_atypon_rss_feed: 'AtyponRSSFeed.xml',
+    sample_atom_feed_with_prefix: 'AtomWithPrefix.xml'
   }.freeze
 
   FEEDS.each do |method, filename|
